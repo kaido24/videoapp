@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
 
-  "name": "TV3Play Embed versioon",
+  "name": "TV3Play taustamuutja",
   "description": "Niisama tore jubin :D",
   "version": "1.0",
 
   "content_scripts": [
     {
-      "matches": ["http://tv3play.tv3.ee/*","http://www.tv3play.tv3.ee/*"],
+      "matches": ["https://*tv3.ee/*"],
       "js": ["content.js"]
     }
   ],
