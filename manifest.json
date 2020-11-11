@@ -7,8 +7,9 @@
 
   "content_scripts": [
     {
-      "matches": ["https://*tv3.ee/*"],
-      "js": ["content.js"]
+      "matches": ["https://tv3.ee/*", "https://facebook.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"]
     }
   ],
   "permissions": [
